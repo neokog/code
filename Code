@@ -4,3 +4,9 @@ const s = ´
 !private : 300 token
 !
 ´
+
+
+if (message.content('!shop')) {
+message.channel.send(s)
+}
+
